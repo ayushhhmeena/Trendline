@@ -135,7 +135,7 @@ html, body{
 
 #img-content::-webkit-scrollbar{
     background-color: transparent;
-    height: 11px;
+    height: 7px;
 }
 
 #img-content::-webkit-scrollbar-thumb{
