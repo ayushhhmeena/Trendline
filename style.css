@@ -91,7 +91,7 @@ html, body{
 }
 
 #text-content{
-    height: 45%;
+    height: 40%;
     width: 100%;
     /* background-color: burlywood; */
 
@@ -124,4 +124,27 @@ html, body{
 .elm h1{
     font-size: 9vw;
     font-weight: 400;
+}
+
+#img-content{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+#img-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 11px;
+}
+
+#img-content::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+#img-content img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
