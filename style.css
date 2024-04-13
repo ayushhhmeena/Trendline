@@ -56,6 +56,7 @@ html, body{
 }
 
 #navbar2 h4{
+    font-family: Montserrat;
     font-size: 0.7vw;
     font-weight: 400;
 }
@@ -79,6 +80,7 @@ html, body{
 }
 
 #nav2 h3{
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 0.9vw;
 }
@@ -122,6 +124,7 @@ html, body{
 }
 
 .elm h1{
+    font-family: Montserrat;
     font-size: 9vw;
     font-weight: 400;
 }
