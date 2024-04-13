@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+    /* background-color: antiquewhite; */
+    background-color: rgb(203, 203, 201);
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+
+    /* background-color: wheat; */
+}
+
+#navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#navbar2 h4{
+    font-size: 0.7vw;
+    font-weight: 400;
+}
+
+#navbar2 h4 span{
+    font-weight: 300;
+    color: gray;
+    margin-left: 20px;
+}
+
+#nav2{
+    height: 80px;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+
+    /* background-color: wheat; */
+}
+
+#nav2 h3{
+    font-weight: 500;
+    font-size: 0.9vw;
+}
+
+#content{
+    height: calc(100% - (80px + 80px));
+    width: 100%;
+
+    /* background-color: wheat; */
+}
+
+#text-content{
+    height: 45%;
+    width: 100%;
+    /* background-color: burlywood; */
+
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+}
+
+#text-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 11px;
+}
+
+#text-content::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+.elm{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: azure; */
+}
+
+.elm h1{
+    font-size: 9vw;
+    font-weight: 400;
+}
